@@ -26,6 +26,8 @@ nav {
     font-size: 24px;
     font-weight: bold;
     z-index: 101;
+    width: 219px;
+    height: 32px;
 }
 
 .logo span {
