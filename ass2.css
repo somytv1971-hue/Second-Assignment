@@ -808,10 +808,6 @@ footer {
 .menu-backdrop.active {
     display: block;
 }
-* {
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .Box {
     background-color: #f5f7fa;
@@ -820,7 +816,7 @@ footer {
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    
+   
 }
 
 .main-container {
@@ -830,7 +826,7 @@ footer {
     border-radius: 20px;
     box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
     padding: 60px;
-    background-color: #000;
+    background-color: #080425;
 }
 
 .main-title {
@@ -862,7 +858,7 @@ footer {
     flex-direction: column;
     gap: 40px;
     width: 780px;
-    
+    margin-right: 400px;
     
     
 }
@@ -875,6 +871,7 @@ footer {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 1px solid #eef2f7;
+    
 }
 
 .card:hover {
@@ -917,15 +914,16 @@ footer {
     width: 380px;
     height: 480px;
     background-color: #000;
+   
 }
 
 .horizontal-card {
-    width: 780px;
+    width: 680px;
     height: 225px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-direction: column;
     justify-content: center;
-    margin-right: 500px;
      background-color: #000;
 }
 
@@ -933,6 +931,7 @@ footer {
     width: 790px;
     height: 273px;
     background-color: #000;
+    
 }
 
 .small-card {
@@ -957,8 +956,8 @@ footer {
     align-self: flex-end;
     margin-top: 0px;
     margin-right: 400px;
-    margin-bottom: 10px;
-    background-color: #201f1f;
+    margin-bottom: 15px;
+    background-color: #000005;
 }
 
 /* Responsive adjustments for preview */
